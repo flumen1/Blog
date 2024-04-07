@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #101F1E;
+  margin: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00ffea;
+}
+
+button {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 3px solid;
+  border-color: #ffffff;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+img {
+  width: 50vw;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+
+}
+
+.right {
+  width: 50%;
+  float: right;
+  margin: 7%;
+}
+
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-right {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.post-entry {
+  margin: 10%;
+}
+
+.post-entry h2 {
+  margin: 0.5rem 0;
+}
+
+.post-entry p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.post-new {
+  margin: 3%;
+}
+
+input[type=text], select {
+  width: 50vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10vw;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 3px solid;
+  border-color: #ffffff;
+  border-radius: 20px;
+}

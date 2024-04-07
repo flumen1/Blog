@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="hero">
+
+    <div class="left">
+      <img src="static/images/hero.jpg">
+    </div>
+
+    <div class="right">
+      <h1>My Personal Blog</h1>
+      <p>This is my personal blog, where you can read and write articles. This blog use Django framework, to write a article, click on link in top right of screen.</p>
+    </div>
+
+  </div>
+
+  {% for post in post_list %}
+
+  <div class="post-entry">
+    <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
+    <p>{{ post.body }}</p>
+    <button><a class="post-button" href="{% url 'post_detail' post.pk %}">Read more</a></button>
+  </div>
+  
+  {% endfor %}
+{% endblock content %}
